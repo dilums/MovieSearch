@@ -1,0 +1,19 @@
+body{
+  font-family: 'Open Sans', sans-serif !important;
+  background: #1a1b1f;
+  color: #fff;
+}
+.text-slanted{
+  font-family: 'Courgette', cursive;
+}
+
+.img-link-container{
+  overflow: hidden;
+}
+.img-link-img{
+  transition: all 0.35s ease;
+}
+.img-link-container:hover .img-link-img{
+  transform: scale(1.1);
+  opacity: 0.5;
+}

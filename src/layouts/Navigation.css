@@ -1,0 +1,49 @@
+a{
+  color: inherit;
+}
+svg{
+  fill: #900830;
+  opacity: 0.5;
+}
+.navbar{
+  background: #17161b;
+ 
+}
+.nav-item{
+  color:#6b6e75;
+}
+.active, .navbar-brand{
+  color: #900830;
+  opacity: 0.8;
+}
+.hero-box{
+  min-height: 100vh;
+}
+.navbar-brand:hover, svg:hover{
+  opacity: 1;
+  color: #900830;
+}
+.inpt-search{
+  background: #232428;
+  border: none;
+  color: #900830;
+  width: 35rem;
+  padding: 0.3rem 0 0.3rem 3rem;
+  border-radius: 1rem;
+}
+@media (max-width: 990px){
+  .inpt-search{
+    
+    width: 100%;
+    
+  }
+}
+.search-container{
+  position: relative;
+}
+.search-container span{
+  position: absolute;
+  left: 0.8rem;
+  top: 0.3rem;
+  color: #6b6e75;
+}
