@@ -1,5 +1,5 @@
 header{
-  min-height: calc(100vh);
+  min-height: 100vh;
   background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/MovieSearch/images/cinema4.jpg')center/cover fixed no-repeat;
   position: relative;
   padding: 5rem 0;

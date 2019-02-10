@@ -2,8 +2,10 @@
   "name": "movies1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dilums.github.io/MovieSearch",
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "query-string": "^6.2.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -14,6 +16,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "deploy":"npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

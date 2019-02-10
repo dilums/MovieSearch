@@ -7,11 +7,6 @@ import './List.css'
 class List extends Component {
   componentDidMount(){
     let selected;
-    // if (this.props.match === undefined){
-    //   selected =   '/now_playing'
-    // }else{
-    //   selected =   this.props.match.path
-    // }
     selected =   '/now_playing'
 
     this.props.Search(selected);
@@ -51,7 +46,7 @@ class List extends Component {
         <div className="container">
         <div className="row mb-5">
       <div className="col-lg-8 mx-auto d-flex justify-content-around flex-wrap">
-        <button className="btn btn-black text-uppercase m-2 btn-active"
+        <button className="btn btn-black text-uppercase m-2"
         onClick={this.onBtnClick.bind(this, '/now_playing')}
         >Now Showing</button>
         <button className="btn btn-black text-uppercase m-2" 

@@ -1,5 +1,5 @@
 .actor-hero{
-  min-height: calc(100vh);
+  min-height: 100vh;
   background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/MovieSearch/images/cinema2.jpg')center/cover fixed no-repeat;
   position: relative;
   padding: 5rem 0;
